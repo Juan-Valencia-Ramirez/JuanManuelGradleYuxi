@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test the search functionality on Google page" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-23T21:44:08" hostname="YUXMED0002L" time="0.019">
+  <properties/>
+  <testcase name="validate search functionality" classname="Test the search functionality on Google page" time="0.019"/>
+  <system-out><![CDATA[?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
