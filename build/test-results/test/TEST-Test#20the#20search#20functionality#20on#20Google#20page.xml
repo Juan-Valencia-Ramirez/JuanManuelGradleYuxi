@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test the search functionality on Google page" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-23T21:44:08" hostname="YUXMED0002L" time="0.019">
+<testsuite name="Test the search functionality on Google page" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-30T18:58:53" hostname="FREDY" time="2.922">
   <properties/>
-  <testcase name="validate search functionality" classname="Test the search functionality on Google page" time="0.019"/>
-  <system-out><![CDATA[?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <testcase name="validate search functionality" classname="Test the search functionality on Google page" time="2.922"/>
+  <system-out><![CDATA[Brower: null
+?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 99.0.4844.17 (395f87df02eedda1d0e06d5ac0614b0eeb22a9e8-refs/branch-heads/4844@{#182}) on port 59662
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar. 30, 2022 1:58:55 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+mar. 30, 2022 1:58:55 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 99, so returning the closest version found: 97
+mar. 30, 2022 1:58:55 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 99 of 97
+]]></system-err>
 </testsuite>

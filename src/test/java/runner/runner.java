@@ -6,12 +6,8 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(
+@CucumberOptions(features = "src/test/resources/features/HomeAmazon.feature", glue = "steps")
 
-    features = "src/test/resources/features",
-    glue = "steps"
-)
-
-public class runner{
+public class runner {
 
 }

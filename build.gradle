@@ -19,4 +19,3 @@ dependencies {
     testImplementation group: 'io.cucumber', name: 'cucumber-junit', version: '4.2.0'
 
 }
-
