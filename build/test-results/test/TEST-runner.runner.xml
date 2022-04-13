@@ -2,10 +2,25 @@
 <testsuite name="runner.runner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="FREDY" time="0.0">
   <properties/>
   <system-out><![CDATA[
-1 Scenarios (?[32m1 passed?[0m)
-4 Steps (?[32m4 passed?[0m)
-0m3,001s
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/features/HomeAmazon.feature:14 ?[0m# Search category
 
+2 Scenarios (?[31m1 failed?[0m, ?[32m1 passed?[0m)
+7 Steps (?[31m1 failed?[0m, ?[32m6 passed?[0m)
+0m50,419s
+
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //b[text()='Hola'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'FREDY', ip: '192.168.4.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 99.0.4844.17 (395f87df02eed..., userDataDir: C:\Users\fredy\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57767}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57767/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 368335d5983e6e446b966a9308b0de3a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pages.BasePage.find(BasePage.java:74)
+	at pages.BasePage.toBeVisible(BasePage.java:110)
+	at steps.HomeAmazonSteps.i_should_be_redirected_to_the_result_page_of_the_category(HomeAmazonSteps.java:46)
+	at ?.I should be redirected to the result page of the category "Artes y Manualidades"(src/test/resources/features/HomeAmazon.feature:18)
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

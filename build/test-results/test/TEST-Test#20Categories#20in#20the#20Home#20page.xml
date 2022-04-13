@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Categories in the Home page" tests="2" skipped="0" failures="1" errors="0" timestamp="2022-04-13T16:40:42" hostname="FREDY" time="50.322">
+  <properties/>
+  <testcase name="All the Catagories are displayed on the Home page" classname="Test Categories in the Home page" time="9.855"/>
+  <testcase name="Search category" classname="Test Categories in the Home page" time="40.466">
+    <failure message="org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //b[text()='Hola'] (tried for 30 second(s) with 500 milliseconds interval)&#10;Build info: version: '4.1.2', revision: '9a5a329c5a'&#10;System info: host: 'FREDY', ip: '192.168.4.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 99.0.4844.17 (395f87df02eed..., userDataDir: C:\Users\fredy\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57767}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57767/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 368335d5983e6e446b966a9308b0de3a" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //b[text()='Hola'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'FREDY', ip: '192.168.4.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 99.0.4844.17 (395f87df02eed..., userDataDir: C:\Users\fredy\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57767}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57767/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 368335d5983e6e446b966a9308b0de3a
+	at app//org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at app//org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at app//pages.BasePage.find(BasePage.java:74)
+	at app//pages.BasePage.toBeVisible(BasePage.java:110)
+	at app//steps.HomeAmazonSteps.i_should_be_redirected_to_the_result_page_of_the_category(HomeAmazonSteps.java:46)
+	at ✽.I should be redirected to the result page of the category &quot;Artes y Manualidades&quot;(src/test/resources/features/HomeAmazon.feature:18)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 99.0.4844.17 (395f87df02eedda1d0e06d5ac0614b0eeb22a9e8-refs/branch-heads/4844@{#182}) on port 57467
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1649868044.880][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 13, 2022 11:40:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 13, 2022 11:40:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: 97
+Apr 13, 2022 11:40:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 100 of 97
+Starting ChromeDriver 99.0.4844.17 (395f87df02eedda1d0e06d5ac0614b0eeb22a9e8-refs/branch-heads/4844@{#182}) on port 53294
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1649868053.898][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+Apr 13, 2022 11:40:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 13, 2022 11:40:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: 97
+Apr 13, 2022 11:40:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 100 of 97
+]]></system-err>
+</testsuite>
