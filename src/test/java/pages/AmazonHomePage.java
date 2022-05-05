@@ -1,4 +1,7 @@
 package pages;
+
+import org.junit.validator.ValidateWith;
+
 public class AmazonHomePage extends BasePage {
 
     public static String cards = "//div[@class='a-cardui-header']";
@@ -24,9 +27,10 @@ public class AmazonHomePage extends BasePage {
 
     public void searchCategory(String value) {
         click(categoriesDropdown);
-        click("//option[text()='" + value + "']");
+        click("//option[text()='Automotive']");
         click(searchButton);
         find(leftDrawer);
     }
+    
 
 }
